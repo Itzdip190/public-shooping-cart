@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cart-container">
+    <h1>Bundle & Save</h1>
+    <div class="page">
+    <div class="cart-item" onclick="toggleCart(this)">
+      <div class="cart-header">
+        <input type="radio" name="bundle" />
+        <label>1 Pair</label>
+        <span>DKK 195.00</span>
+        <span class="discount">50% OFF</span>
+      </div>
+      <div class="cart-body">
+        <div class="option"> 
+            <label for="size1">Size:</label>
+             <select id="size1">
+               <option>S</option>
+               <option>M</option>
+               <option>L</option>
+             </select>
+             <label for="color1">Color:</label>
+             <select id="color1">
+               <option>Red</option>
+               <option>Blue</option>
+               <option>Green</option>
+             </select>
+           </div>
+      </div>
+    </div>
+
+    <div class="cart-item" onclick="toggleCart(this)">
+      <div class="cart-header">
+        <input type="radio" name="bundle" />
+        <label>2 Pair</label>
+        <span>DKK 345.00</span>
+        <span class="discount most-popular">Most Popular</span>
+        <span>40% OFF</span>
+      </div>
+      <div class="cart-body">
+        <div class="option"> 
+         <label for="size1">Size:</label>
+          <select id="size1">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <label for="color1">Color:</label>
+          <select id="color1">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+          </select>
+        </div>
+        
+        <div class="option">
+          <label for="size2">Size:</label>
+          <select id="size2">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <label for="color2">Color:</label>
+          <select id="color2">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart-item" onclick="toggleCart(this)">
+      <div class="cart-header">
+        <input type="radio" name="bundle" />
+        <label>3 Pair</label>
+        <span>DKK 528.00</span>
+        <span class="discount">60% OFF</span>
+      </div>
+      <div class="cart-body">
+        <div class="option">
+            <label for="size1">Size:</label>
+            <select id="size1">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <label for="color1">Color:</label>
+            <select id="color1">
+              <option>Red</option>
+              <option>Blue</option>
+              <option>Green</option>
+            </select>
+          </div>
+          <div class="option">
+            <label for="size2">Size:</label>
+            <select id="size2">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <label for="color2">Color:</label>
+            <select id="color2">
+              <option>Red</option>
+              <option>Blue</option>
+              <option>Green</option>
+            </select>
+          </div>
+          <div class="option">
+            <label for="size3">Size:</label>
+            <select id="size3">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <label for="color3">Color:</label>
+            <select id="color3">
+              <option>Red</option>
+              <option>Blue</option>
+              <option>Green</option>
+            </select>
+          </div>
+      </div>
+    </div>
+    </div>
+    <button class="add-to-cart">+ Add to Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
